@@ -1,0 +1,107 @@
+ 
+ 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+    font-family: outfit;
+}
+
+@layer base{
+  html{
+    scroll-behavior: smooth;
+  }
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+.rich-text {
+  line-height: 1.7;
+  color: #444;
+}
+
+.rich-text {
+  margin-bottom: 16px;
+
+}
+
+/* Headings */
+.rich-text h1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 16px;
+}
+
+.rich-text h2 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.rich-text h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.rich-text h4 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.rich-text h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.rich-text h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+/* Paragraph */
+.rich-text p {
+  margin-bottom: 14px;
+  font-size: 15px;
+  color: #555;
+}
+
+/* Bold text */
+.rich-text strong {
+  font-weight: 600;
+  color: #222;
+}
+
+/* Ordered list */
+.rich-text ol {
+  margin-left: 22px;
+  margin-bottom: 16px;
+  list-style-type: decimal;
+}
+
+/* Unordered list */
+.rich-text ul {
+  margin-left: 22px;
+  margin-bottom: 16px;
+  list-style-type: disc;
+}
+
+/* List items */
+.rich-text li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #555;
+}
